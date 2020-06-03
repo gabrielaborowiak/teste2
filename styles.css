@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1b262c;
+    font: #f5f5f5
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.container .box {
+    position: relative;
+    padding: 40px;
+    transition: 0.5s;
+    text-align: center;
+    background: #3282b8;
+
+}
+
+.container .box:hover {
+    background: #bbe1fa;
+}
+.container .box p {
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.container .box h4 {
+    margin: 20px 0 0;
+    padding: 0;
+    transition: 0.5s;
+    font-size: ;
+}
