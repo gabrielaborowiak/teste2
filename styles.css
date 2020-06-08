@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    padding: 0;
-    display: flex;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -23,12 +22,13 @@ body {
     padding: 80px 40px 40px;
     transition: 0.5s;
     text-align: center;
-    background: #3282b8;
+    background: #82c4c3;
 
 }
 
 .container .box:hover {
-    background: #bbe1fa;
+    background: #232931;
+    color
 }
 .container .box p {
     margin: 0;
@@ -41,7 +41,7 @@ body {
     padding: 0;
     transition: 0.5s;
     font-size: 18px;
-    color: #1b262c;
+    color: #1b435d;
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
@@ -51,7 +51,7 @@ body {
 .container .box h4 span {
     font-weight: 600;
     font-size: 14px;
-    color: #bbe1fa;
+    color: #d5eeff;
     transition: 0.5s;
     
 }
@@ -109,3 +109,12 @@ body {
     opacity: 1;
 }
 
+.carouselExampleCaptions {
+    padding: 60px;
+    size: 500px;
+
+}
+
+#inicio {
+    background-color: #ff895d;
+}
