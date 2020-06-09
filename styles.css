@@ -118,3 +118,116 @@ body {
 #inicio {
     background-color: #ff895d;
 }
+#sensornav {
+    padding: 20px;
+    margin: 0;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#sensor1 h3 {
+    background:#ffc4a3 ;
+    text-align: center;
+    padding: 20px;
+    font-family: font-family: 'Quicksand', sans-serif;
+    color: #1b261b;
+
+}
+
+#sensor2 h3 {
+    background:#ffc4a3 ;
+    text-align: center;
+    padding: 20px;
+    font-family: font-family: 'Quicksand', sans-serif;
+    color: #1b261b;
+}
+
+#sensor3 h3 {
+    background:#ffc4a3 ;
+    text-align: center;
+    padding: 20px;
+    font-family: font-family: 'Quicksand', sans-serif;
+    color: #1b261b;
+}
+
+#sensor1 {
+    background: #1b262c;
+    text-align: justify;
+    padding: 20px;
+    border: 10px #000;
+    margin-top: 5px;
+    color: #e8e4e1;
+}
+
+#sensor2 {
+    background: #1b262c;
+    text-align: justify;
+    padding: 20px;
+    border: 10px #000;
+    margin-top: 5px;
+    color: #e8e4e1;
+}
+
+#sensor3 {
+    background: #1b262c;
+    text-align: justify;
+    padding: 20px;
+    border: 10px #000;
+    margin-top: 5px;
+    color: #e8e4e1;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-brand {
+      padding-top: 10px;
+      height: 90px;
+    }
+    .navbar-brand h1 {
+      padding-top: 10px;
+      font-size: 5vw;
+    }
+    .navbar-brand p {
+      font-size: .6em;
+      margin-top: 12px;
+    }
+    .navbar-brand p img {
+      height: 20px;
+    }
+    #collapsable-nav a {
+      font-size: 1.2em;
+    }
+    #collapsable-nav a i {
+      font-size: 1em;
+      margin-right: 5px;
+    }
+  
+  @media (max-width: 767px) {
+      .navbar-brand {
+        padding-top: 10px;
+        height: 90px;
+      }
+      .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 5vw;
+      }
+      .navbar-brand p {
+        font-size: .6em;
+        margin-top: 12px;
+      }
+      .navbar-brand p img {
+        height: 20px;
+      }
+      #collapsable-nav a {
+        font-size: 1.2em;
+      }
+      #collapsable-nav a i {
+        font-size: 1em;
+        margin-right: 5px;
+      }
+  
+     
+
