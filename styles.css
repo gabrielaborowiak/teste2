@@ -269,6 +269,19 @@ body {
     padding: 20px;
 }
 
+#texto2 {
+    background: #1b262c;
+    color: #e8e4e1;
+    text-align: justify;
+    border-color: #1b262c;
+}
+
+#texto2 hr{
+    background: #e8e4e1;
+    color: #e8e4e1;
+    border-color: #e8e4e1;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 
     .navbar-brand {
