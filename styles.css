@@ -179,7 +179,39 @@ body {
     color: #e8e4e1;
 }
 
+#texto {
+    background: #1b262c;
+    color: #e8e4e1;
+    border-color: #1b262c;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+}
+ #class1 {
+     background: #1b262c;
+     color: #e8e4e1;
+     text-align: justify;
+     padding: 20px;
+ }
+ #class2 {
+     background: #1b262c;
+     color: #e8e4e1;
+     text-align: justify;
+     padding: 20px;
+ }
+ #class3 {
+     background: #1b262c;
+     color: #e8e4e1;
+     text-align: justify;
+     padding: 20px;
+ }
 
+ #class4 {
+    background: #1b262c;
+    color: #e8e4e1;
+    text-align: justify;
+    padding: 20px;
+ }
 @media (min-width: 768px) and (max-width: 991px) {
 
     .navbar-brand {
