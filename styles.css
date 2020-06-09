@@ -212,6 +212,63 @@ body {
     text-align: justify;
     padding: 20px;
  }
+
+ #imgsensor {
+     text-align: center;
+     padding-left: 55px;
+     margin-top: auto;
+
+ }
+
+ #arduino1 {
+     background: #1b262c;
+     color: #e8e4e1;
+     text-align: justify;
+     padding: 30px;
+ }
+
+#arduino1 h3 {
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
+
+#circ1 {
+    color: #e8e4e1;
+    text-align: justify;
+    padding: 20px;
+}
+
+#circ2 {
+    color: #e8e4e1;
+    text-align: justify;
+    padding: 20px;
+}
+
+#circ3 {
+    color: #e8e4e1;
+    text-align: justify;
+    padding: 20px;
+}
+
+#circ1 h3 {
+    color: #e8e4e1;
+    text-align: center;
+    padding: 20px;
+}
+
+#circ2 h3 {
+    color: #e8e4e1;
+    text-align: center;
+    padding: 20px;
+}
+
+#circ3 h3 {
+    color: #e8e4e1;
+    text-align: center;
+    padding: 20px;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 
     .navbar-brand {

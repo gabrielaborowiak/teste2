@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Raio UV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Início</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="usosensor.html">Uso do sensor <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="descoberta.html">Descoberta UV</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Arduino
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="funciona.html">Como funciona</a>
+                    <a class="dropdown-item" href="circuito.html">Circuito</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Considerações finais</a>
+                </div>
+                </li>
+            </ul>  
+            </div>
+        </nav>
+    </header>
+
+        <div id="inicio" class="jumbotron jumbotron-fluid">
+            <div  class="container">
+            <h1 class="display-4">Sensor UV</h1>
+            <p class="lead"> Nesta parte você descobrirá um pouco mais do arduino, o sensor UV em uma explicação mais detalhada.</p>
+            </div>
+        </div>
+
+        <footer class="painel-rodape">
+            <div class="container">
+              <div class="row">
+                  <section id="circ1" class="col-md-4">
+                      <h3>Como é composto:</h3>
+                    <p>O circuito de conexão ao Arduino Uno fica então desse jeito, 
+                        com o módulo e o display compartilhando a alimentação de 5V:
+                        Circuito Arduino Sensor UV GUVA-S12SD e Display Oled 128x32
+                        Para exibição dos dados do nosso medidor de UV vamos usar um display Oled I2C 128×32 de 0,91″, 
+                        outro componente de fácil conexão no Arduino e que como podemos ver no circuito acima está conectado nos pinos analógicos A4 (SDA) e A5 (SCL).
+                        
+                        </p>
+                  </section>
+                  <section id="circ2" class="col-md-4">
+                      <h3>Captando energia:</h3>
+                    <p>Outra opção de explicação do circuito: O medidor utiliza uma tabela criada em 1992 chamada UV Index (ou Índice Ultravioleta), 
+                        que vai de 0 (baixo) a 11 (extremo), indicando o nível dos raios UV. 
+                        Com esse nível podemos criar uma tabela mostrando as providências que devem ser tomadas para se proteger do sol 
+                        (usar óculos escuros, protetor solar, roupas adequadas,  etc).                        
+                        </p>
+                  </section>
+                  <section id="circ3" class="col-md-4">
+                      <h3>Efeito fotovoltaico:</h3>
+                    <p>Ligação do sensor UV ao Arduino
+                        No nosso circuito vamos utilizar um display Oled I2C Azul Amarelo para mostrar a informação do índice UV. 
+                        Esse display é o mesmo que utilizamos recentemente no nosso projeto de Bafômetro com Arduino. 
+                        A saída do módulo UV (pino OUT) será ligada ao pino analógico A0 do Arduino.
+                        Programa medidor de índice UV com Arduino
+                        O programa lê o valor da porta analógica A0, converte esse valor em milivolts e faz a associação com a tabela mostrada abaixo, 
+                        para exibir no display o valor do índice UV (UV Index) correspondente.
+                        </p>
+                  </section>
+                </div>
+            </div>
+        </footer>    
+    
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+ crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+ integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
+ crossorigin="anonymous"></script>
+
+</body>
+</html>
